@@ -509,7 +509,7 @@ export default function BillingPage() {
                 {currentStep < 4 ? (
                   <button
                     onClick={handleNext}
-                    className="px-6 py-3 bg-[#3563E9] text-white font-medium rounded-lg hover:bg-[#264BC8] transition-colors duration-200"
+                    className=" px-3 lg:px-6 py-3 bg-[#3563E9] text-white font-medium rounded-lg hover:bg-[#264BC8] transition-colors duration-200"
                   >
                     Next
                     <FaChevronRight className="inline ml-2" />
