@@ -497,7 +497,7 @@ export default function BillingPage() {
                 <button
                   onClick={handlePrevious}
                   disabled={currentStep === 1}
-                  className={`px-6 py-3 rounded-lg font-medium transition-colors duration-200 ${currentStep === 1
+                  className={` px-3  lg:px-6 py-3 rounded-lg font-medium transition-colors duration-200 ${currentStep === 1
                     ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
                     : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                     }`}
